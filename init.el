@@ -3,6 +3,21 @@
 (add-to-list 'load-path
 	     (expand-file-name "~/.emacs.d"))
 
+
+
+(show-paren-mode t)
+(global-linum-mode t)
+
+;; encoding
+(set-language-environment "utf-8")
+(prefer-coding-system 'utf-8)
+
+;; org-mode
+(require 'my-init-org)
+
+
+
+
 ;; (custom-set-variables
 ;;  ;; custom-set-variables was added by Custom.
 ;;  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -16,12 +31,4 @@
 ;;  ;; If there is more than one, they won't work right.
 ;;  )
 
-
-(show-paren-mode t)
-(global-linum-mode t)
-
-;; org-mode
-;; (load "~/.emacs.d/htmlize.elc")		;syntax highlight
-;; (setq org-src-fontify-natively t)
-(require 'my-init-org)
 

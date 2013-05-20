@@ -1,0 +1,3 @@
+[submodule "o-blog"]
+	path = o-blog
+	url = https://github.com/renard/o-blog.git
